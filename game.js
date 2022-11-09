@@ -52,7 +52,7 @@ function checkAnswer(currentLevel) {
         $("body").removeClass("game-over");
       }, 200);
 
-      $("#level-title").text("Game Over, Touch Screen to Restart");
+      $("#level-title").text("Game Over, Hover Mouse to Restart");
 
       startOver();
     }
